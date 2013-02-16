@@ -85,8 +85,8 @@ public class CudaTweaks extends Tweaks {
       writer.close();
 
       File code_file = new File(RootbeerPaths.v().getRootbeerHome()+"code_file.ptx");
-      //String modelString = "-m"+System.getProperty("sun.arch.data.model");
-      String modelString = "-m64";
+      String modelString = "-m"+System.getProperty("sun.arch.data.model");
+     // String modelString = "-m64";
 
       String command;
       CudaPath cuda_path = new CudaPath();

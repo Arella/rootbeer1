@@ -39,7 +39,7 @@ public class GencodeOptions {
     } else if(version.equals("Cuda compilation tools, release 4.2, V0.2.1221")){
       return sm_30 + sm_21 + sm_20;
     } else if(version.equals("Cuda compilation tools, release 4.1, V0.2.1221")){
-      return sm_30 + sm_21 + sm_20;
+  return  sm_21 + sm_20;
     } else if(version.equals("Cuda compilation tools, release 4.0, V0.2.1221")){
       return sm_30 + sm_21 + sm_20;
     } else if(version.equals("Cuda compilation tools, release 3.2, V0.2.1221")){
